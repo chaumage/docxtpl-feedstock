@@ -17,7 +17,7 @@ build:
 
 requirements:
   host:
-    - python =3.10.*
+    - python >={{ python_min }}
     - poetry-core
     - poetry-dynamic-versioning >=1.0.0,<2.0.0
     - pip
